@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/pegasus-black.png" type="image/x-icon">
+    <title>Пошук туру</title>
+</head>
+<body>
+    <header>
+        <a id="logo" href="index.html"> <img src="img/pegasus-black.png" alt="Чорний Пегас"> </a>
+
+        <nav>
+            <a href="index.html">Головна</a>
+        </nav>
+        <nav>
+                <a href="turs.html">Пошук туру</a>
+            </nav>
+        <nav>
+            <a href="hot-turs.html">Гарячі тури</a>
+        </nav>
+        <nav>
+                <a href="gallery.html">Галерея</a>
+            </nav>
+
+            <img src="img/time-to-travel.jpg" alt="Вказівник із надписом">
+    </header>
+    <main>
+
+            <h2>Пошук туру</h2>
+            <div>
+                <p>Єгипет - Хургада, Hotel Empire****</p>
+                <p> 1799 грн/ 2 тижні</p>
+                <fieldset>
+                    <p>Hotel Empire розташований в самому центрі давньої Хургади. До аеропорту ~ 10 км. До пляжу ~ 250 м. Скромний готель середнього класу з гарною організацією, може похвалитись дуже зручним розташуванням. Це цікава пропозиція для всієї родини за розумною ціною.</p>
+                </fieldset>
+                <img src="img/egypt-hotel.jpeg" alt="Єгипетський готель в Хургаді">
+            </div>
+            <br>
+            <div>
+                <p>Туреччина - Фетхіє, Hotel Harman***** </p>
+                <p>2299 грн/ 2 тижні</p>
+                <fieldset>
+                    <p>Hotel Harman розташований в південній частині Туреччини - місто Фетхіє. До пляжу ~500 м. Готель складається з трьох одноповерхових будівель. Номери оснащені телевізором і кондиціонером. На території готелю знаходиться басейн, ресторан, бар, а також магазин з сувенірами. Це місце задовольнить очікування навіть найвимогливіших туристів.</p>
+                </fieldset>
+                <img src="img/turkish-hotel.jpeg" alt="Турецький готель в Фетхіє">
+            </div>
+            <br>
+            <div>
+                <p>Кенія - Момбаса, Hotel Eden****</p>
+                <p>5499 грн/ 2 тижні</p>
+                <fieldset>
+                    <p>Екскурсійний тур з відвідуванням найкрасивіших місць Кенії. Проживання в чотирьохзірковому готелі Eden, розташованому в 35 км від Момбаси. До пляжу ~ 200 м, до аеропорту ~ 20 км. Готель побудовано в арабському стилі, а номера оформлені в африканському стилі. На території готелю є багато ресторанів, барів і магазинів з сувенірами.</p>
+                </fieldset>
+                <img src="img/kenyan-hotel.jpeg" alt="Кенійський готель в Момбасі">
+            </div>
+    </main>
+    <footer>
+        <h2>Контакти</h2>
+            <fieldset>
+                <legend><b>Відгуки та пропозиції</b></legend>
+                <label>
+                    Ваше ім'я:<input type="text" name="user-name">
+                </label>
+                <br>
+                <label for="user-email">Електронна адреса:</label>
+                <input id="user-email" type="email" name="user-email">
+                <br>
+                <label>
+                    Телефон:<input type="text" name="user-phone">
+                </label>
+                <br>
+                <label for="country">Оберіть країну :</label>
+                <input type="text" name="country" id="country" list="mySuggestion">
+                <datalist id="mySuggestion">
+                    <option>Австрія</option>
+                    <option>Аргентина</option>
+                    <option>Бельгія</option>
+                    <option>Велика Британія</option>
+                    <option>Греція</option>
+                    <option>Домініканська Республіка</option>
+                    <option>Єгипет</option>
+                    <option>Італія</option>
+                    <option>Кіпр</option>
+                    <option>Мальта</option>
+                    <option>Нідерланди</option>
+                    <option>Польща</option>
+                </datalist>
+                <br>
+                <th>Дати відпочинку <b class="reqfield">:</b></th>
+                <td>
+			<label>з  <input id="datepickerFrom" name="dateFrom" class="st-datepicker start-date hasDatepicker" type="text" value=""> </label>
+			<label>по <input id="datepickerTo" name="dateTo" class="st-datepicker end-date hasDatepicker" type="text" value=""></label>
+			    </td>
+                <br>
+                <label>
+                    Номер заявки:<input type="text" name="remarks">
+                </label>
+                <br>
+                <label>
+                    Ваші зауваження:<textarea rows="3" cols="60" name="text" wrap="hard"></textarea>
+                </label>
+                <br>
+                <label>
+                    Ваші пропозиції:<textarea rows="3" cols="60" name="text" wrap="hard"></textarea>
+                </label>
+                <br>
+                <input type="submit" value="Відправити">
+            </fieldset>
+            <fieldset>
+                <p>вул. Городоцька 155</p>
+                <p>Львів</p>
+                <p>тел: +38 (093) 000 00 00</p>
+                <p>e-mail: office@office.com.ua</p>
+            </fieldset>
+            <a href="https://www.instagram.com"> <img src="img/instagram-icon.png" alt="Логотип Інстаграм"></a>
+            <a href="https://https://www.facebook.com"><img src="img/black-and-white-facebook-logo.png" alt="Чорний з білим логотип Фейсбук"></a>
+            <a href="https://twitter.com"><img src="img/twitter-logo.png" alt=Логотип Твітер""></a>
+            <hr>
+            <p>© 2009-2019 КЕПРЕЙТ ПАРТНЕРС. Усі права захищені.</p>
+        </footer>
+
+    </main>
+
+
+
+</body>
+</html>
