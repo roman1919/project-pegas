@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+:root {
+    --accent-color: #f7de60;
+    --font-color: black;
+    font-family: 'Fira Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+header .menu  #logo [src^=img] {
+    float: center;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+header .menu .link nav a {
+    text-decoration: none;
+    color: var(--font-color);
+    text-transform: uppercase;
+    border: 2px inset transparent;
+    padding: 3px;
+}
+
+header .menu .link nav a:hover   {
+  border: 2px inset var(--accent-color);
+}
+
+@media (min-width: 600px) {
+    header .menu {
+        display: flex;
+        align-items: center;
+    }
+
+     header .menu .link {
+        flex: 1;
+    }
+}
+
+header .pegasus {
+    display: flex;
+    content: alighn;
+}
+
+
+
+
