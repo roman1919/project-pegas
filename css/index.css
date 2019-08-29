@@ -54,9 +54,24 @@ header .menu .link nav a:hover   {
     }
 }
 
+header .banner {
+    background-image: url(../img/title.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
 header .pegasus {
     display: flex;
-    content: alighn;
+    justify-content: center;
 }
 
 
