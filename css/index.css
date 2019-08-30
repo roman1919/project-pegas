@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Lora&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
 
 :root {
     --accent-color: #f7de60;
+    --banner-color: gold;
     --font-color: black;
     font-family: 'Fira Sans', sans-serif;
     scroll-behavior: smooth;
@@ -61,19 +63,26 @@ header .banner {
     height: 500px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
 }
 
-
-
-
-
-header .pegasus {
-    display: flex;
-    justify-content: center;
+header .banner {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 2rem;
+    margin: 8px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: goldenrod;
 }
 
+header .banner h1 {
+    margin: 3rem 0;
+}
+header .banner h2 {
+    margin: 15px 0;
+    font-size: 1em;
+}
 
 
 
