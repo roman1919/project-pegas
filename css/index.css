@@ -1,11 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster|Lora&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
-
-:root {
-    --accent-color: #f7de60;
-    --banner-color: gold;
-    --font-color: black;
-    font-family: 'Fira Sans', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Lobster|Lora&display=swap'); @import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap'); :root {
+    --accent-color: #f7de60; --banner-color: gold; --font-color: black; font-family: 'Fira Sans', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -14,8 +8,7 @@ body {
     margin: auto;
 }
 
-header .menu  #logo [src^=img] {
-    float: center;
+header .menu #logo [src^=img] {
     width: 100px;
     height: 100px;
     display: block;
@@ -41,8 +34,8 @@ header .menu .link nav a {
     padding: 3px;
 }
 
-header .menu .link nav a:hover   {
-  border: 2px inset var(--accent-color);
+header .menu .link nav a:hover {
+    border: 2px inset var(--accent-color);
 }
 
 @media (min-width: 600px) {
@@ -51,7 +44,7 @@ header .menu .link nav a:hover   {
         align-items: center;
     }
 
-     header .menu .link {
+    header .menu .link {
         flex: 1;
     }
 }
@@ -79,10 +72,8 @@ header .banner {
 header .banner h1 {
     margin: 3rem 0;
 }
+
 header .banner h2 {
     margin: 15px 0;
     font-size: 1em;
 }
-
-
-
