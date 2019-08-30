@@ -26,12 +26,18 @@ header .menu #logo [src^=img] {
     font-size: 20px;
 }
 
-header .menu .link nav a {
+header .menu .link nav  a {
     text-decoration: none;
     color: var(--font-color);
     text-transform: uppercase;
     border: 2px inset transparent;
-    padding: 3px;
+    padding: 2px;
+
+}
+
+header .menu .link nav:first-of-type{
+    background-color: #FFEC99;
+    color: white;
 }
 
 header .menu .link nav a:hover {
@@ -77,3 +83,8 @@ header .banner h2 {
     margin: 15px 0;
     font-size: 1em;
 }
+
+body main h2 {
+    text-align: center;
+}
+body main

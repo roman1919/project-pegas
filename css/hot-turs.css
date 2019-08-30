@@ -31,7 +31,11 @@ header .menu .link nav a {
     color: var(--font-color);
     text-transform: uppercase;
     border: 2px inset transparent;
-    padding: 3px;
+    padding: 2px;
+}
+
+header .menu .link nav:nth-child(3){
+    background-color: #FFEC99;
 }
 
 header .menu .link nav a:hover {
