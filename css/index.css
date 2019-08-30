@@ -37,7 +37,6 @@ header .menu .link nav  a {
 
 header .menu .link nav:first-of-type{
     background-color: #FFEC99;
-    color: white;
 }
 
 header .menu .link nav a:hover {
