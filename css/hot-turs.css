@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Lora&display=swap'); @import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap'); :root {
-    --accent-color: #f7de60; --banner-color: gold; --font-color: black; font-family: 'Fira Sans', sans-serif;
+    --accent-color: #f7de60; --font-color: black; font-family: 'Fira Sans', sans-serif;
     scroll-behavior: smooth;
 }
 
