@@ -9,6 +9,7 @@ body {
     background-color: #EDEAE5;
     font-size: 16,8px;
 }
+
 header .menu {
     display: flex;
     justify-content: space-between;
@@ -32,14 +33,13 @@ header .menu #logo [src^=img] {
     font-size: 20px;
 }
 
-header .menu .link nav  a {
+header .menu .link nav a {
     text-decoration: none;
     font-size: 17px;
     color: var(--font-color);
     text-transform: uppercase;
     border: 2px inset transparent;
     padding: 2px;
-
 }
 
 header .menu .link nav:first-of-type {
@@ -98,11 +98,11 @@ body main .first h2 {
     margin-top: 80px;
 }
 
-@media (min-width: 80px){
+@media (min-width: 80px) {
     body main .first [src^=img] {
-    width: 42%;
-    float: left;
-    margin-right: 15px;
+        width: 42%;
+        float: left;
+        margin-right: 15px;
     }
 }
 
@@ -111,31 +111,47 @@ body main .second h2 {
     margin-top: 80px;
 }
 
-@media (min-width: 80px){
+@media (min-width: 80px) {
     body main .second [src^=img] {
-    width: 42%;
-    float: right;
+        width: 42%;
+        float: right;
     }
 }
 
-
-}
 footer .bottom h2 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin-top: 80px;
 }
 
-
-footer .contacts {
-    display: flex;
-    justify-content: space-between;
-}
-
-}
 footer .respons {
+    display: flex;
+    justify-content: center;
+}
+
+footer .respons fieldset label {
     display: flex;
     justify-content: flex-start;
 }
 
+footer .respons .table {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
+footer p {
+    text-align: center;
+}
 
+footer .contacts .back {
+    display: flex justify-content: center;
+}
+
+@media (min-width: 80px) {
+    footer .map [src^=http] {
+        width: 42%;
+        display: flex;
+        justify-content: center;
+    }
+}

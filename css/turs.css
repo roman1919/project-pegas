@@ -6,6 +6,13 @@
 body {
     max-width: 980px;
     margin: auto;
+    background-color: #EDEAE5;
+    font-size: 16,8px;
+}
+
+header .menu {
+    display: flex;
+    justify-content: space-between;
 }
 
 header .menu #logo [src^=img] {
@@ -22,24 +29,28 @@ header .menu #logo [src^=img] {
     list-style-type: none;
     justify-content: space-around;
     align-items: center;
-    background: rgb(255, 255, 255);
+    background: #EDEAE5;
     font-size: 20px;
 }
 
 header .menu .link nav a {
     text-decoration: none;
+    font-size: 17px;
     color: var(--font-color);
     text-transform: uppercase;
     border: 2px inset transparent;
     padding: 2px;
 }
 
-header .menu .link nav:nth-child(2){
-    background-color: #FFEC99;
+header .menu .link nav:nth-child(2) {
+    text-decoration-line: underline;
 }
 
 header .menu .link nav a:hover {
-    border: 2px inset var(--accent-color);
+    border: 2px solid;
+    border-color: #FEF9C7;
+    border-radius: 8px;
+    background-color: #FEF9C7;
 }
 
 @media (min-width: 600px) {
@@ -57,7 +68,7 @@ header .banner {
     background-image: url(../img/title.jpg);
     background-position: center;
     background-size: cover;
-    height: 500px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -70,7 +81,7 @@ header .banner {
     margin: 8px 0;
     text-align: center;
     text-transform: uppercase;
-    color: goldenrod;
+    color: #FCE181;
 }
 
 header .banner h1 {

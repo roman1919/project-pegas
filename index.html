@@ -66,78 +66,85 @@
                             <legend>
                                 <b>Відгуки та пропозиції</b>
                             </legend>
-                            <label>
-                                Ваше ім'я:<input type="text" name="user-name">
-                            </label>
-                            <br>
-                            <label for="user-email">Електронна адреса:</label>
-                            <input id="user-email" type="email" name="user-email">
-                            <br>
-                            <label>
-                                Телефон:<input type="text" name="user-phone">
-                            </label>
-                            <br>
-                            <label for="country">Оберіть країну :</label>
-                            <input type="text" name="country" id="country" list="mySuggestion">
-                            <datalist id="mySuggestion">
-                                <option>Австрія</option>
-                                <option>Аргентина</option>
-                                <option>Бельгія</option>
-                                <option>Велика Британія</option>
-                                <option>Греція</option>
-                                <option>Домініканська Республіка</option>
-                                <option>Єгипет</option>
-                                <option>Італія</option>
-                                <option>Кіпр</option>
-                                <option>Мальта</option>
-                                <option>Нідерланди</option>
-                                <option>Польща</option>
-                            </datalist>
-                            <br>
-                            <p>Дати відпочинку:</p>
-                            <label>
-                                з  <input id="datepickerFrom" name="dateFrom" class="st-datepicker start-date hasDatepicker" type="text" value="">
-                            </label>
-                            <label>
-                                по <input id="datepickerTo" name="dateTo" class="st-datepicker end-date hasDatepicker" type="text" value="">
-                            </label>
-                            <br>
-                            <label>
-                                Номер заявки:<input type="text" name="remarks">
-                            </label>
-                            <br>
-                            <label>
-                                Ваші зауваження:<textarea rows="3" cols="60" name="text" wrap="hard"></textarea>
-                            </label>
-                            <br>
-                            <label>
-                                Ваші пропозиції:<textarea rows="3" cols="60" name="text" wrap="hard"></textarea>
-                            </label>
-                            <br>
-                            <input type="submit" value="Відправити">
+                            <div class="table">
+                                <label>
+                                    Ваше ім'я:<br>
+                                    <input type="text" name="user-name">
+                                </label>
+                                <br>
+                                <label for="user-email">Електронна адреса:</label>
+                                <br>
+                                <input id="user-email" type="email" name="user-email">
+                                <br>
+                                <label>
+                                    Телефон:<br>
+                                    <input type="text" name="user-phone">
+                                </label>
+                                <br>
+                                <label for="country">Оберіть країну :</label>
+                                <br>
+                                <input type="text" name="country" id="country" list="mySuggestion">
+                                <datalist id="mySuggestion">
+                                    <option>Австрія</option>
+                                    <option>Аргентина</option>
+                                    <option>Бельгія</option>
+                                    <option>Велика Британія</option>
+                                    <option>Греція</option>
+                                    <option>Домініканська Республіка</option>
+                                    <option>Єгипет</option>
+                                    <option>Італія</option>
+                                    <option>Кіпр</option>
+                                    <option>Мальта</option>
+                                    <option>Нідерланди</option>
+                                    <option>Польща</option>
+                                </datalist>
+                                <br>
+                                <p>Дати відпочинку:</p>
+                                <label>
+                                    з  <input id="datepickerFrom" name="dateFrom" class="st-datepicker start-date hasDatepicker" type="text" value="">
+                                </label>
+                                <label>
+                                    по <input id="datepickerTo" name="dateTo" class="st-datepicker end-date hasDatepicker" type="text" value="">
+                                </label>
+                                <br>
+                                <label>
+                                    Номер заявки:<br>
+                                    <input type="text" name="remarks">
+                                </label>
+                                <br>
+                                <label>
+                                    Ваші зауваження:<br>
+                                    <textarea rows="3" cols="60" name="text" wrap="hard"></textarea>
+                                </label>
+                                <br>
+                                <label>
+                                    Ваші пропозиції:<br>
+                                    <textarea rows="3" cols="60" name="text" wrap="hard"></textarea>
+                                </label>
+                                <br>
+                                <input type="submit" value="Відправити">
+                            </div>
                         </fieldset>
                     </div>
-                    <br>
-                    <fieldset>
-                        <p>вул. Городоцька 155</p>
-                        <p>Львів</p>
-                        <p>тел: +38 (093) 000 00 00</p>
-                        <p>e-mail: office@office.com.ua</p>
-                    </fieldset>
                 </div>
                 <br>
-                <a href="https://www.instagram.com">
-                    <img src="img/instagram-icon.png" alt="Логотип Інстаграм">
-                </a>
-                <a href="https://www.facebook.com">
-                    <img src="img/black-and-white-facebook-logo.png" alt="Чорний з білим логотип Фейсбук">
-                </a>
-                <a href="https://twitter.com">
-                    <img src="img/twitter-logo.png" alt="Логотип Твітер">
-                </a>
-                <br/>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.3374529062403!2d23.997858215709233!3d49.83611657939533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add83da49059d%3A0x59d76bf9223dd4ed!2z0LLRg9C70LjRhtGPINCT0L7RgNC-0LTQvtGG0YzQutCwLCAxNTUsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNzkwMDA!5e0!3m2!1suk!2sua!4v1567086214617!5m2!1suk!2sua"></iframe>
-                <hr>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.3374529062403!2d23.997858215709233!3d49.83611657939533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add83da49059d%3A0x59d76bf9223dd4ed!2z0LLRg9C70LjRhtGPINCT0L7RgNC-0LTQvtGG0YzQutCwLCAxNTUsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNzkwMDA!5e0!3m2!1suk!2sua!4v1567086214617!5m2!1suk!2sua"></iframe>
+                </div>
+                <p>Львів вул. Городоцька 155</p>
+                <p>тел: +38 (093) 000 00 00</p>
+                <p>e-mail: office@office.com.ua</p>
+                <p>
+                    <a href="https://www.instagram.com">
+                        <img src="img/instagram-icon.png" alt="Логотип Інстаграм">
+                    </a>
+                    <a href="https://www.facebook.com">
+                        <img src="img/black-and-white-facebook-logo.png" alt="Чорний з білим логотип Фейсбук">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img src="img/twitter-logo.png" alt="Логотип Твітер">
+                    </a>
+                </p>
                 <p>© 2009-2019 КЕПРЕЙТ ПАРТНЕРС. Усі права захищені.</p>
             </div>
         </footer>
