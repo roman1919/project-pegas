@@ -122,6 +122,7 @@ footer .bottom h2 {
     display: flex;
     justify-content: center;
     margin-top: 80px;
+    margin-bottom: 50px;
 }
 
 footer .respons {
@@ -131,13 +132,19 @@ footer .respons {
 
 footer .respons fieldset label {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 footer .respons .table {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer .respons .table label {
+    text-align: center;
 }
 
 footer p {
@@ -148,10 +155,7 @@ footer .contacts .back {
     display: flex justify-content: center;
 }
 
-@media (min-width: 80px) {
-    footer .map [src^=http] {
-        width: 42%;
-        display: flex;
-        justify-content: center;
-    }
+footer .map {
+    text-align: center;
+}
 }
